@@ -94,7 +94,7 @@
             <artifactId>exec-maven-plugin</artifactId>
             <version>3.6.3</version>
             <configuration>
-                <mainClass>com.virag.App</mainClass>
+                <mainClass>com.virag.banking.App</mainClass>
             </configuration>
         </plugin>
       </plugins>

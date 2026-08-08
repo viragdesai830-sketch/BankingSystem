@@ -11,9 +11,9 @@ import java.sql.SQLException;
  */
 public final class DBConnection {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/bank_db";
+    private static final String URL = "jdbc:mysql://localhost:3306/coep";
     private static final String USER = "root";
-    private static final String PASSWORD = "yourpassword"; // TODO: move to a config file / env var, don't hardcode in real projects
+    private static final String PASSWORD = "YOUR_PASSWORD"; // TODO: move to a config file / env var, don't hardcode in real projects
 
     private DBConnection() {
         // utility class, no instances
